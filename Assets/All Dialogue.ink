@@ -1,7 +1,7 @@
 SO, friends. Here's the rundown.
 You type in ink to add text. New line = new block of text.
-Gabe "if you want to designate who is speaking, put a name followed by a space and a quotation mark. Quotation Marks in any other situation display nicely as text.
-Gabe "you don't need to close parenthesis/quotation marks etc. in ink, but you can if you want
+Player "if you want to designate who is speaking, put a name followed by a space and a quotation mark. Quotation Marks in any other situation display nicely as text.
+Player "you don't need to close parenthesis/quotation marks etc. in ink, but you can if you want
 Gabe "and if you want to include an image or animations or anything in the text block, that's possible, but it'll take a bit more research.
 Gabe "time to learn about menus and branching paths.
 + "How does a menu work?" -> menus
