@@ -1,4 +1,13 @@
-#wait 2
+VAR Chairhappy = true
+#hide Ralph
+#hide Tony
+#hide Mom
+#hide Beanbag
+#hide GamingChair
+
+#insertname
+
+#wait2
 
 ->sc1_start
 
@@ -32,30 +41,54 @@ There! TonySux! Ok, let's go! #mouse clicks on "start"
 
 === sc1_showroom ===
 
-#show_room
+#livingroom
+#show GamingChair
+#show Beanbag
+#show Ralph
+Ralph?stars "Woooooh it's working! Look, Tony, there's a person in there!
 
-Ralph "Woooooh it's working! Look, Tony, there's a person in there!
+#show Tony
+Tony?youknow "Wow. They look so lifelike. It's like they're an actual person from a different universe or something.
 
-Tony "Wow. They look so lifelike. It's like they're an actual person from a different universe or something
+Ralph?stars "Of course they look real! It's a VII-AR, the hypest game console of all time!
 
-Ralph "Of course they look real! It's a VII-AR, the hypest game console of all time!
+Tony?sooo "I thought you said you'd rather have Potato Run 3.
 
-Tony "I thought you said you'd rather have Potato Run 3.
+Ralph?huh "Yeah, well. Maybe you can play Potato Run on this thing too... #pause 1
 
-Ralph "Yeah, well. Maybe you can play Potato Run on this thing too... #wait 1
+Ralph?neutral "OK, let's make them do something...
+Ralph?pissed    uh... TonySux, spin around!
 
-Ralph "OK, let's make them do something...
-    uh... TonySux, spin around!
-
-Did you spin around? #choice
+Query "Did you spin around? #choice
 
 + [Yes] 
 
-Ralph?excited "Haha, it works! This is great!
+Ralph?stars "Haha, it works! This is great!
+Ralph?stars "MOMMMMM! This thing is SO GOOD!
 
 + [No]
 
-Tony "I don't think it heard you.
+Tony?neutral "I don't think it heard you.
+Ralph?bigeye "MOMMMMM! The VII-AR is JANKY!!
+~ Chairhappy = false
 
-- done for now
--> END
+-
+Wendy?dotmouth "That's nice, honey.
+Ralph?neutral "What a good gift. #pause 1
+GamingChair "Hey. You. Yeah, you, TonySux.
+GamingChair "These kids... they don't know what you are. But I know.
+GamingChair "I know that in there, you're just a person controlling a machine.
+GamingChair {Chairhappy==true:"I like these kids. Don't mess with them, okay? | "I know you heard them tell you to spin around. And <b>you. didn't. listen.</b>}
+{Chairhappy==false:GamingChair "Don't mess with these kids. I'm watching you.}
+Beanbag "I for one am all for it.
+GamingChair "Why do you always get in my business, beanbag? Just let the kids be happy. Please...
+Beanbag {Chairhappy==false: I'm rooting for you, you great force of chaos. | Trust me, the most fun you can have in this house is messing with the kids. } #pause 1
+
+Ralph?neutral "Alright, I'm gonna boot up 'Second Half-Life 3.'
+
+
+
+
+
+
+->END
