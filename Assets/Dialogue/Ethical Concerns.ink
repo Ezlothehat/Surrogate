@@ -1,9 +1,6 @@
-#show_player_entry
-#mom visible
-#player hidden
-#tony hidden
+#nameentry
 
-Mom "Ok... how do you work this thing? #pause 2
+Mom "Ok... how do you work this thing? 
 
 #playername AAA
 
@@ -11,13 +8,12 @@ Mom "Ok... how do you work this thing? #pause 2
 
 === sc3_start === 
 
-#show_room
+#wait 2
+#livingroom
 
 Mom "Wow, this looks so real. Um... where are the parental controls on this thing?
-    Mom "OPEN PARENTAL CONTROLS! ALEXA!"
+    Mom "OPEN PARENTAL CONTROLS! ALEXA!" 
     
-#pause 2
-
 Mom "Aw well, maybe it's all built in. It's marketed to kids after all...
 
 Mom "GO NAKED! SHOW GRAPHIC CONTENT!
@@ -64,3 +60,4 @@ GamingChair "good job
 
 ->DONE
 -> END
+ 
