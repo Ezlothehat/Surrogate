@@ -34,7 +34,7 @@ There! TonySux! Ok, let's go! #mouse clicks on "start"
 
 #show_room
 
-Player?weird "Woooooh it's working! Look, Tony, there's a person in there!
+Ralph "Woooooh it's working! Look, Tony, there's a person in there!
 
 Tony "Wow. They look so lifelike. It's like they're an actual person from a different universe or something
 
