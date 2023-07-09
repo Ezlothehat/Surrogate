@@ -4,7 +4,7 @@ Ralph “I want a <i>HORSE!</i> I need a noble steed.
 Tony “Go for it, champ.
 Ralph “I bet I can find a mount over here…
 
-What do YOU find?
+What did YOU find?
 +A dog ->sc2_dog
 +A horse ->sc2_horse
 +Stuart Little’s Bike ->sc2_toybike
@@ -19,7 +19,7 @@ Tony “Hey good boy! Who’s a good boy? Are you a good boy?
 Beanbag “You’re not a good boy. You’re gonna chomp his hand.
 Chair “Don’t chomp his hand! You’re a good boy.
 
-Are YOU a good boy?
+Were YOU a good boy?
 +bad boy
 CHOMP
 Tony “HEY!
@@ -40,9 +40,9 @@ Tony “Sparks is too precious for the evils of war.
 Ralph “<i>A HORSE!!!!!!!!!!!!</i>
 Tony “Nice work.
 Ralph “I’m gonna ride him facing BACKWARDS!
-Tony “Wait, why?
+Tony “Wait, you're gonna fall off.
 
-Do you fall off?
+Did you fall off?
 +Yes
 Ralph “Hahahahaha!
 Tony “Is that… what you were hoping for?
@@ -65,7 +65,7 @@ Wendy “I’m sure that’s very cute, dear.
 Ralph “Alright, time to ride into battle. #pause 1
 Ralph “HAHAHA! You cannot stand up to the power of my rigatoni!
 
-Can they stand up to the power of YOUR rigatoni?
+Did they stand up to the power of YOUR rigatoni?
 +Yes
 Tony “Ouch.
 Ralph “<i>MY BIKE!</i>
@@ -83,7 +83,7 @@ Tony “Looks like you’ll have to go into battle without your steed.
 Ralph “Unless… the goblin <i>IS</i> the steed!
 Ralph “I’m gonna do it.
 
-Do YOU ride the goblin?
+Did YOU ride the goblin?
 +Yes
 Ralph “HAHAHA! I’m riding the goblin!
 Tony “I… can’t believe that works. He is stabbing you, though.
@@ -116,7 +116,7 @@ Tony “It is pretty nice.
 Ralph “Nice, but... it’s no horse.
 Ralph “Unless I <i>ATE</i> it into being a horse!
 
-Do YOU eat it into the shape of a horse?
+Did YOU eat it into the shape of a horse?
 +Yes
 Ralph “I went looking for a horse. But I got a much better, <b>GIANT CHEESE HORSE.
 
