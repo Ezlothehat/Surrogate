@@ -203,7 +203,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188327274}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2d14e6aca1401e64aa8d3d98fdf7343f, type: 2}
   m_CullingMode: 0
@@ -3307,7 +3307,6 @@ GameObject:
   - component: {fileID: 1146608020}
   - component: {fileID: 1146608025}
   - component: {fileID: 1146608026}
-  - component: {fileID: 1146608024}
   - component: {fileID: 1146608027}
   m_Layer: 0
   m_Name: Flowchart
@@ -3329,7 +3328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 368.5, y: 212}
+  scrollPos: {x: 463.5, y: 351}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -3341,9 +3340,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1146608021}
-  selectedCommands:
-  - {fileID: 1146608027}
+  - {fileID: 1146608025}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3383,9 +3381,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -196
-    y: -30
-    width: 143.6
+    x: -300
+    y: -145
+    width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3427,31 +3425,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1146608024
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146608018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee63e642958494f1ebed8116ae4b1103, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  _animator:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 188327278}
-  _parameterName:
-    stringRef: {fileID: 0}
-    stringVal: stars
-  value:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  animatorOLD: {fileID: 0}
-  parameterNameOLD: 
 --- !u!114 &1146608025
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3466,9 +3439,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 4.5
-    y: -31
-    width: 150.8
+    x: -85.5
+    y: -141
+    width: 148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3476,8 +3449,7 @@ MonoBehaviour:
   blockName: ShowLivingRoom
   description: 
   eventHandler: {fileID: 1146608026}
-  commandList:
-  - {fileID: 1146608024}
+  commandList: []
   suppressAllAutoSelections: 0
 --- !u!114 &1146608026
 MonoBehaviour:
