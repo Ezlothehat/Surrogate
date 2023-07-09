@@ -1,3 +1,4 @@
+VAR mount = 0
 Ralph "Hold on, does this game have pets? I want to get a pet!
 Tony "I saw a dog earlier, so probably.
 Ralph "I want a <i>HORSE!</i> I need a noble steed.
@@ -30,6 +31,7 @@ Tony "Poor guy. I hope he finds his way.
 ->sc2_END
 
 +good boy
+~mount = 1
 Tony "Awwwww. His name will be Sparks and he will be my good boy forEVER.
 Beanbag "wimp.
 Ralph "Alright Tony, can I try to ride him into battle?
@@ -38,6 +40,7 @@ Tony "Sparks is too precious for the evils of war.
 
 ===sc2_horse===
 Ralph "<i>A HORSE!!!!!!!!!!!!</i>
+~mount = 2
 Tony "Nice work.
 Ralph "I’m gonna ride him facing BACKWARDS!
 Tony "Wait, you're gonna fall off.
@@ -73,6 +76,7 @@ Tony "We’ll have to get you a new one.
 ->sc2_END
 
 +No
+~mount = 3
 Ralph "YES! YES! <i>DIE, DIE, DIE!</i>
 Tony "You’ve been watching too much TV.
 ->sc2_END
@@ -104,6 +108,7 @@ Ralph "Oh well. Back to looking for a horse, I guess.
 
 ->sc2_END
 ===sc2_cheese===
+~mount = 4
 Ralph "Is that… a massive cheese? On the ground?
 Tony "Looks like it.
 Ralph "It’s, moving around???
