@@ -6,7 +6,7 @@ VAR mount = 0
 #hide Beanbag
 #hide GamingChair
 
-#wait2
+#wait 2
 
 ->sc1_start
 
