@@ -416,9 +416,11 @@ namespace InkFungus
                     if (characters.ContainsKey(character))
                     {
                         Character speaker = characters[character];
+                        SpriteRenderer renderer = speaker.GetComponent<SpriteRenderer>();
                         string portraitName = (dialogLine.Groups["portrait"].Success) ?
                             dialogLine.Groups["portrait"].Value : null;
                         portrait = FindPortrait(speaker, portraitName);
+                        renderer.sprite = portrait;
                         SayDialog specificSayDialog = speaker.SetSayDialog;
                         if (speaker.SetSayDialog != null && speaker.SetSayDialog != sayDialog)
                         {
