@@ -6,9 +6,7 @@ VAR mount = 0
 #hide Beanbag
 #hide GamingChair
 
-#insertname
-
-#wait2
+#wait 2
 
 ->sc1_start
 
@@ -48,6 +46,8 @@ There! TonySux! Ok, let's go! #mouse clicks on "start"
 #show GamingChair
 #show Beanbag
 #show Ralph
+#wait 1
+
 Ralph?stars "Woooooh it's working! Look, Tony, there's a person in there!
 #livingroom
 #show Tony
