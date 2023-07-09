@@ -26,7 +26,7 @@ I suppose.
 
 Hah, ok. #input_random_name
 
-There! <player_name>! Ok, let's go! #mouse clicks on "start"
+There! TonySux! Ok, let's go! #mouse clicks on "start"
 
 -> sc1_showroom
 
@@ -45,9 +45,9 @@ Tony "I thought you said you'd rather have Potato Run 3.
 Ralph "Yeah, well. Maybe you can play Potato Run on this thing too... #wait 1
 
 Ralph "OK, let's make them do something...
-    uh... <player_name>, spin around!
+    uh... TonySux, spin around!
 
-Did you spin around fam? #choice
+Did you spin around? #choice
 
 + [Yes] 
 
